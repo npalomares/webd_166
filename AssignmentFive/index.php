@@ -34,6 +34,10 @@
 							<input type="text" class="lname" name="lname" size="20" placeholder="Last Name" required>
 						</div>
 						<div class="form-component">
+							<label>Email Address: </label>
+							<input type="email" class="email" name="email" size="20" placeholder="Email Address" required>
+						</div>						
+						<div class="form-component">
 							<label>Posting: </label>
 							<textarea class="posting" name="posting" placeholder="Post here" rows="9" cols="30" required></textarea>
 						</div>
