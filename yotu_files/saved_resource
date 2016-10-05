@@ -1,0 +1,16 @@
+/**/ YUI.Env.JSONP.yui_3_10_3_5_1475361194037_6({
+   "http://nfl.com/goto?id=0ap3000000693625": {
+      "og_object": {
+         "id": "952058691586885",
+         "description": "Marcas Grant continues his look at late-round fantasy values with an overview of some wide receivers who could offer good fantasy production without spending a lot of draft capital.",
+         "title": "Best late-round fantasy values: Wide receivers",
+         "type": "article",
+         "updated_time": "2016-09-30T00:09:14+0000"
+      },
+      "share": {
+         "comment_count": 28,
+         "share_count": 2244
+      },
+      "id": "http://nfl.com/goto?id=0ap3000000693625"
+   }
+});

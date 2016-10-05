@@ -1,0 +1,1 @@
+.yui3-skip-links>a{position:absolute;top:-1000px;left:-1000px;height:1px;width:1px;text-align:left;overflow:hidden}.yui3-skip-links>a:active,.yui3-skip-links>a:focus,.yui3-skip-links>a:hover{top:0;left:0;font-size:16px;font-family:sans-serif;color:#fff;background-color:#075290;height:30px;overflow:auto;width:99%;padding:5px;z-index:10000}
