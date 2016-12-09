@@ -1,0 +1,39 @@
+<!-- END CHANGEABLE CONTENT. -->
+<?php 
+/*********************************************************************************
+Course:  WEBD166 - PHP
+
+Created 2016: Larry Ullman (PHP for the Web - Fifth Edition)
+Modified 2016-11-27 [David Taniguchi]: Added Comments for use of $name variable 
+
+*********************************************************************************/
+// Script 13.4 - footer.html
+
+// Display general admin links...
+// - if the user is an administrator and it's not the logout.php page
+// - or if the $loggedin variable is true (i.e., the user just logged in)
+// final: Control Structure: Modify the following code to display a "login" link when the user is "not" logged in.  
+// (e.g. <a href="login.php">Login</a>)
+if ( (is_administrator() && (basename($_SERVER['PHP_SELF']) != 'logout.php'))
+OR (isset($loggedin) && $loggedin) ) {
+
+	// Create the links:
+	print '<hr><h3>Site Admin</h3><p><a href="add_quote.php">Add Quote</a> <->
+	<a href="view_favorites.php">View All Favorites</a> <->
+	<a href="view_quotes.php">View All Quotes</a> <->
+	<a href="logout.php">Logout</a></p>';
+
+} else {
+	echo 'Hello you need to: <a href="login.php">Login</a>';
+}
+
+?>
+	</div><!-- container -->
+    <?php 
+	// final: Variables (2 of 2): Display $name variable from includes/functions.php
+    // final: Insert date() function and your $name variable so it dynamically displays inside the <div id="footer"></div> element. 
+    // e.g. <div id="footer">WEBD166 &copy; 2016 - John Smith. December 25, 2016 02:30pm</div>
+    ?>
+	<div id="footer">WEBD166 &copy; <?php echo $year; ?> - <?php echo $name; ?>. <?php echo $date; ?> <?php echo $time; ?> </div>
+</body>
+</html>

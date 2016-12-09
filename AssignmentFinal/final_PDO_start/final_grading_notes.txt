@@ -1,0 +1,40 @@
+Start with XAMPP (or your web hosting)
+Use phpmyadmin
+Create a database 
+Import the "quotes" table using "webd166_final_quotes.sql"
+
+
+[15pts] Databases 
+  *	Import the "quotes" table using "webd166_final_quotes.sql"
+  *	In PDO_connect.php, modify the code to point to your database.
+[15pts] Variables 
+  *	In webd166final/includes/functions.php, create a variable called $name and set it to your full name.
+  *	In webd166final/templates/footer, display $name
+[15pts] Code Comments 
+  *	Add comments at the top of files you modified and include a brief description of what you changed.
+[15pts] Strings 
+  *	In "add_quote.php" and "edit_quote.php", replace BADWORD with ******* for new and edited quotes.
+[15pts] Control Structures 
+  *	In "footer.html", modify code to use control structures like "if", "else", "switch/case", etc. to display <a href="login.php">Login</a> only when a user is NOT logged in.
+[15pts] Arrays 
+  *	In "view_favorites.php", display ALL favorites in a 2-dimensional array called $results.
+  *	Use a "foreach" loop to display array elements within <td></td> tags.
+[15pts] Cookies and Sessions 	
+  *	In index.php, create a cookie called "webd166" with "<your first name> WAS HERE" as the value.  Expires in 1 hour.
+  *	Use your browser's development tools OR write debugging code to test your cookies.
+[15pts] Functions 
+  *	In webd166final/templates/footer.html, display the current date and time using the date() function.
+[15pts] Documentation
+  *	Write a summary of your experience as you worked on your final project
+  *	Include a comment about each task in the final project.
+[15pts] Zipped Backup 
+  *	Create a zip file called <your initials>_webd166final.zip.  
+  *	export your sql file with your quotes table if possible
+  *	Submit the zipped project to blackboard for grading.
+
+Extra Credit
+[+10pts] Class presentation
+  *	Earn points by sharing your project experience with the rest of the class.
+[+10pts] File and Directories. 
+  *	Create a log.txt file to record all login attempts 
+	e.g. (date, time, username, status.  e.g.  2016-12-25, 06:45am, you@example.com, success)
